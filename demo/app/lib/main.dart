@@ -12,9 +12,7 @@ import 'firebase_options.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final dio = Dio(
-    BaseOptions(
-      baseUrl: 'https://gpt.tunnelto.dev',
-    ),
+    BaseOptions(baseUrl: 'https://gpt-demo.julianhartl.dev'),
   );
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
